@@ -2,7 +2,7 @@ import json, random
 from pathlib import Path
 import streamlit as st
 
-st.set_page_config(page_title="Ôn thi Lịch sử 12", page_icon="📚", layout="centered",
+st.set_page_config(page_title="MYMYMYMYMMYMYMYMYMYMY", page_icon="📚", layout="centered",
                    initial_sidebar_state="collapsed")
 
 # Ẩn công cụ Streamlit, tăng cỡ chữ, nút nộp bài nổi ở góc trên bên phải

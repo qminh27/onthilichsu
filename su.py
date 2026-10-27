@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title="Ôn thi Lịch sử 12", page_icon="📚", layout="centered",
                    initial_sidebar_state="collapsed")
 
-# Ẩn công cụ Streamlit, tăng cỡ chữ, nút nộp bài nổi bên phải
+# Ẩn công cụ Streamlit, tăng cỡ chữ, nút nộp bài nổi ở góc trên bên phải
 st.markdown("""
 <style>
 #MainMenu, header, footer, .stDeployButton,
@@ -26,7 +26,7 @@ html { font-size: 18px; }
 .st-key-nop_bai_noi,
 .element-container:has(.nop-marker) + .element-container,
 [data-testid="stElementContainer"]:has(.nop-marker) + [data-testid="stElementContainer"] {
-    position: fixed !important; top: 50%; right: 16px; transform: translateY(-50%);
+    position: fixed !important; top: 16px; right: 16px;
     z-index: 999999; width: auto !important; margin: 0 !important;
 }
 .element-container:has(.nop-marker), [data-testid="stElementContainer"]:has(.nop-marker) { display: none; }

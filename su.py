@@ -2,7 +2,7 @@ import json, random
 from pathlib import Path
 import streamlit as st
 
-st.set_page_config(page_title="MYMYMYMYMMYMYMYMYMYMY", page_icon="📚", layout="centered",
+st.set_page_config(page_title="Moi Sý", page_icon="📚", layout="centered",
                    initial_sidebar_state="collapsed")
 
 # Ẩn công cụ Streamlit, tăng cỡ chữ, nút nộp bài nổi ở góc trên bên phải
@@ -64,7 +64,7 @@ def bat_dau(xao):
     st.rerun()
 
 
-st.title("📚 Ôn thi Lịch sử")
+st.title("📚MYMYMYMYMYMYMY")
 
 # ---------------- Lựa chọn duy nhất ----------------
 c1, c2 = st.columns([2, 1])
